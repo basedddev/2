@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billy Bass Crypto - Community & Token</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="description" content="The first cryptocurrency that sings while your investments grow! Join our vibrant community today." />
+    <style>
+      :root {
+        --font-heading: 'Montserrat', sans-serif;
+        --font-body: 'Open Sans', sans-serif;
+      }
+      
+      @keyframes swimming {
+        0% { transform: translateX(0) rotate(0deg); }
+        25% { transform: translateX(5px) rotate(2deg); }
+        50% { transform: translateX(0) rotate(0deg); }
+        75% { transform: translateX(-5px) rotate(-2deg); }
+        100% { transform: translateX(0) rotate(0deg); }
+      }
+      
+      .animate-swimming {
+        animation: swimming 3s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
